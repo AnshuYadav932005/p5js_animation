@@ -4,7 +4,7 @@
   let cols;let rows;
   let offset=4;
   function setup() {
-    createCanvas(400, 400);
+    createCanvas(windowWidth, windowHeight);
     rectMode(CENTER);
     angleMode(DEGREES);
     cols=width/size;
